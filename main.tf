@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "selfscrum"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "dev_test_github_actions"
     }
   }
 }
